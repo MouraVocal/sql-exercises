@@ -21,3 +21,5 @@ SELECT COUNT(*) FROM Production.Product;
 
 SELECT COUNT(DISTINCT Size) FROM Production.Product;
 
+SELECT TOP 10 ProductID FROM Production.Product
+ORDER BY StandardCost desc;
